@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Custom\app.ico" />
+    <None Remove="Assets\Custom\close.png" />
+    <None Remove="Assets\Images\blogger.png" />
+    <None Remove="Assets\Images\facebook.png" />
+    <None Remove="Assets\Images\imessage.png" />
+    <None Remove="Assets\Images\instagram.png" />
+    <None Remove="Assets\Images\messenger.png" />
+    <None Remove="Assets\Images\pinterest.png" />
+    <None Remove="Assets\Images\twitter.png" />
+    <None Remove="Assets\Images\youtube.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Custom\app.ico" />
+    <Resource Include="Assets\Custom\close.png" />
+    <Resource Include="Assets\Images\blogger.png" />
+    <Resource Include="Assets\Images\facebook.png" />
+    <Resource Include="Assets\Images\imessage.png" />
+    <Resource Include="Assets\Images\instagram.png" />
+    <Resource Include="Assets\Images\messenger.png" />
+    <Resource Include="Assets\Images\pinterest.png" />
+    <Resource Include="Assets\Images\twitter.png" />
+    <Resource Include="Assets\Images\youtube.png" />
+  </ItemGroup>
+
+</Project>
